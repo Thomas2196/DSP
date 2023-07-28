@@ -1,5 +1,5 @@
 from TPTMoogLadder.TPTMoogLadder import *
-from TPTSallenKey.TPTSallenKey import *
+from TPTSallenKey.python.TPTSallenKey import *
 
 
 def plotFrequencyResponse(typeOfFilter, order=2, fc=440, k=3, SR=44100):

@@ -1,0 +1,2 @@
+add_library(TPTSallenKey src/TPTSallenKeyHPStage.cpp inc/TPTSallenKeyHPStage.h src/TPTSallenKeyLPStage.cpp inc/TPTSallenKeyLPStage.h src/TPTMultimodeOnePoleFilter.cpp inc/TPTMultimodeOnePoleFilter.h src/TPTSallenKey.cpp inc/TPTSallenKey.h)
+target_include_directories(TPTSallenKey PUBLIC inc/)

@@ -254,7 +254,8 @@ def test_chorus():
     y = y / max(np.abs(y))
     sd.write(output_file, y, fs)
 
-def test_limiter()
+def test_limiter():
+    print("test limiter")
 
 if __name__ == '__main__':
     # test_iir_aplowpass()
